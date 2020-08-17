@@ -946,8 +946,8 @@ ItemDisplay[crs !ETH NMAG SOCK=4]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[bsd NMAG SOCK=4 CLVL<95]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[crs NMAG SOCK=4 CLVL>92]: 
 ItemDisplay[bsd NMAG SOCK=4 CLVL>92]: 
-ItemDisplay[crs NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME% %WHITE% 4 soc from larzuk
-ItemDisplay[bsd NMAG SOCK=0 (ILVL>25 AND ILVL<57)]: %DGREEN%%NAME% %WHITE% 4 soc from larzuk
+ItemDisplay[crs NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DGREEN%%NAME% %GRAY%[%SOCKETS%] (%ILVL%)
+ItemDisplay[bsd NMAG SOCK=0 (ILVL>25 AND ILVL<57)]: %DGREEN%%NAME% %GRAY%[%SOCKETS%] (%ILVL%)
 
 //INSIGHT INFINITY
 //INSIGHT or INFINITY 4os Polearms, ETH 4os Polearms, Eth Elite Polearms, ETH Elite 4os Polearms, Spears
@@ -1397,13 +1397,13 @@ ItemDisplay[RARE lbl !ID CLVL>40]:
 
 //RARES
 //Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
-ItemDisplay[RARE ci0 ci1 ci2 ci3 !ID]: %YELLOW%¤%NAME%¤
-ItemDisplay[RARE amu !ID]: %YELLOW%¤%NAME%¤
-ItemDisplay[RARE rin !ID]: %YELLOW%¤%NAME%¤
-ItemDisplay[RARE EQ4 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE EQ5 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE EQ6 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE jew !ID]: %YELLOW%JEWEL
+ItemDisplay[RARE ci0 ci1 ci2 ci3 !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE amu !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤ 
+ItemDisplay[RARE rin !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE EQ4 !ID]: %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE EQ5 !ID]: %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE EQ6 !ID]: %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE jew !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤
 
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs
 ItemDisplay[RARE CL1 !ID]: %YELLOW%%NAME%
