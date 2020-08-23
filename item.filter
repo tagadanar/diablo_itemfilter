@@ -865,9 +865,9 @@ ItemDisplay[xit MAG !ID]: %NAME%
 ItemDisplay[uit MAG SOCK=4 FBR=30]: Get Rekt
 
 //Amazon Javelins 
-ItemDisplay[MAG am5 ILVL>71]: %ORANGE%%NAME%[%ILVL%]
-ItemDisplay[MAG ama ILVL>77]: %ORANGE%%NAME%[%ILVL%]
-ItemDisplay[MAG amf ILVL>80]: %ORANGE%%NAME%[%ILVL%]
+ItemDisplay[MAG am5 ILVL>71]: %NAME%%ORANGE%[%ILVL%]
+ItemDisplay[MAG ama ILVL>77]: %NAME%%ORANGE%[%ILVL%]
+ItemDisplay[MAG amf ILVL>80]: %NAME%%ORANGE%[%ILVL%]
 ItemDisplay[MAG am5 !ID]: %BLUE%%NAME%
 ItemDisplay[MAG ama !ID]: %BLUE%%NAME%
 ItemDisplay[MAG amf !ID]: %BLUE%%NAME%
