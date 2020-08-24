@@ -31,15 +31,16 @@ rare			6 pSkull		// diadem!
 weap			Ort
 armor			Ral
 
-	CRAFT (jewel+rune+pgem+item)
+	CRAFT (jewel+rune+pgem+item) clvl71+ for 100% 4affix
 		Caster (pAmeth)
-Ith + belt				// fcr belt, best ilvl ?
-Ral + amu				// fcr amu, ilvl in filter
-Thul+ boot				// manaboot, best ilvl ?
-Amn + ring				// manaring, ilvl in filter
+Ith + belt				// fcr belt
+Ral + amu				// fcr amu, clvl in filter
+Thul+ boot				// manaboot
+Amn + ring				// manaring, clvl in filter
 		Blood (pRuby)
-Tal + belt				// ow belt, best ilvl ?
-Amn + amu				// frw amu, ilvl in filter
-Sol + ring				// life ring, ilvl in filter
+Nef + gloves			// cc gloves
+Tal + belt				// ow belt
+Amn + amu				// frw amu, clvl in filter
+Sol + ring				// life ring, clvl in filter
 		HitPower (pSaphir)
-Ort + gloves			// knockback, ilvl in filter
+Ort + gloves			// knockback, clvl in filter
