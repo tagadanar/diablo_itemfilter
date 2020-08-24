@@ -1,10 +1,10 @@
 UNSOCKET	Hel + TP			// Except Ethereal Body Armors
 
-	SOCKET					// rand roll 1-maxsock according to ilvl)
-armor		Tal + Thul + pTopaz
-weap		Ral + Amn + pAmeth
-helm		Ral + Thul + pSaphir
-shield		Tal + Amn + pRuby
+	SOCKET						// rand roll 1-maxsock according to ilvl)
+armor			Tal + Thul + pTopaz
+weap			Ral + Amn + pAmeth
+helm			Ral + Thul + pSaphir
+shield			Tal + Amn + pRuby
 
 	UPGRADE
 		UNIQUE
@@ -24,9 +24,22 @@ weap cauch		Dol + Mal + pRuby
 armor cauch		Hel + Io + pTopaz
 
 	REROLL
-magic		3 pGems			// gc ilvl91+, sc ilvl47
-rare		6 pSkull		// diadem!
+magic			3 pGems			// gc ilvl91+, sc ilvl47
+rare			6 pSkull		// diadem!
 
 	REPAIR
-weap		Ort
-armor		Ral
+weap			Ort
+armor			Ral
+
+	CRAFT (jewel+rune+pgem+item)
+		Caster (pAmeth)
+Ith + belt				// fcr belt, best ilvl ?
+Ral + amu				// fcr amu, ilvl in filter
+Thul+ boot				// manaboot, best ilvl ?
+Amn + ring				// manaring, ilvl in filter
+		Blood (pRuby)
+Tal + belt				// ow belt, best ilvl ?
+Amn + amu				// frw amu, ilvl in filter
+Sol + ring				// life ring, ilvl in filter
+		HitPower (pSaphir)
+Ort + gloves			// knockback, ilvl in filter
