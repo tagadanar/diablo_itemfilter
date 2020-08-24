@@ -1,0 +1,32 @@
+UNSOCKET	Hel + TP
+
+	SOCKET					//rand roll 1-maxsock according to ilvl)
+armor		Tal + Thul + pTopaz
+weap		Ral + Amn + pAmeth
+helm		Ral + Thul + pSaphir
+shield		Tal + Amn + pRuby
+
+	UPGRADE
+		UNIQUE
+weap norm		Ral + Sol + pEmerald
+armor norm		Tal + Shael + pDiamant
+weap cauch		Lum + Pul + pEmerald
+armor cauch		Ko + Lem + pDiamant
+		RARE
+weap norm		Ort + Amn + pSaphir 
+armor norm		Ral + Thul + pAmeth
+weap cauch		Fal + Um + pSaphir
+armor cauch		Ko + Pul + pAmeth
+		SET
+weap norm		El + Eth + pRuby
+armor norm		Eld + Ith + pTopaz
+weap cauch		Dol + Mal + pRuby
+armor cauch		Hel + Io + pTopaz
+
+	REROLL
+magic		3 pGems			// gc ilvl91+, sc ilvl47
+rare		6 pSkull		// diadem!
+
+	REPAIR
+weap		Ort
+armor		Ral
