@@ -1,6 +1,6 @@
-UNSOCKET	Hel + TP
+UNSOCKET	Hel + TP			// Except Ethereal Body Armors
 
-	SOCKET					//rand roll 1-maxsock according to ilvl)
+	SOCKET					// rand roll 1-maxsock according to ilvl)
 armor		Tal + Thul + pTopaz
 weap		Ral + Amn + pAmeth
 helm		Ral + Thul + pSaphir
