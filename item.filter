@@ -226,13 +226,13 @@ ItemDisplay[gsb CLVL>29]:
 ItemDisplay[gsy CLVL>29]:
 ItemDisplay[sku CLVL>29]:
 //Gems flawless
-ItemDisplay[gzv]: %ORANGE%Amethyst
+ItemDisplay[gzv]: %ORANGE%Amethyst %RED%¤
 ItemDisplay[glw]: %ORANGE%Diamond
 ItemDisplay[glg]: %ORANGE%Emerald
 ItemDisplay[glr]: %ORANGE%Ruby
 ItemDisplay[glb]: %ORANGE%Sapphire
 ItemDisplay[gly]: %ORANGE%Topaz
-ItemDisplay[skl]: %ORANGE%Skull
+ItemDisplay[skl]: %ORANGE%Skull %RED%¤
 //Gems Perfect
 ItemDisplay[gpv]: %ORANGE%P AMETHYST
 ItemDisplay[gpw]: %ORANGE%P DIAMOND
@@ -286,9 +286,9 @@ ItemDisplay[UNI !ETH !ID uar]: %RED%¤ %PURPLE%%NAME% %RED%¤
 //Guardian Angel
 ItemDisplay[UNI !ETH !ID xlt]: %RED%¤ %PURPLE%%NAME% %RED%¤
 //Tal Rasha Armour
-ItemDisplay[SET !ETH !ID uth]: %RED%¤¤¤¤¤¤¤ %PURPLE%Tal's Armor%RED% ¤¤¤¤¤¤¤
+ItemDisplay[SET !ETH !ID uth]: %RED%¤¤¤¤¤¤¤ %GREEN%Tal's Armor%RED% ¤¤¤¤¤¤¤
 //Immortal King Armour
-ItemDisplay[SET !ETH !ID uar]: %RED%¤¤¤¤¤¤¤ %PURPLE%IK's Armor%RED% ¤¤¤¤¤¤¤
+ItemDisplay[SET !ETH !ID uar]: %RED%¤¤¤¤¤¤¤ %GREEN%IK's Armor%RED% ¤¤¤¤¤¤¤
 
 
 //Gloves
@@ -355,9 +355,6 @@ ItemDisplay[UNI !ETH !ID 7wh]: %NAME% %RED%¤
 ItemDisplay[UNI !ETH !ID 7bk]: Warshrike %RED%¤
 //Hexfire
 ItemDisplay[UNI !ID 9sb]: %NAME% %RED%¤
-//Frostwind
-ItemDisplay[UNI !ID 7ls]: *NEW* %NAME% %RED%¤
-
 
 //Shields
 //Stormshield, Homunculus, Herald of Zakarum, Darkforce Spawn(+3PNB), Medusa's Gaze, Radament's Sphere
@@ -476,20 +473,20 @@ ItemDisplay[MAG rin ILVL=68]: %BLUE%%NAME%%ORANGE% [c74-80]
 ItemDisplay[MAG rin ILVL=69]: %BLUE%%NAME%%ORANGE% [c73-79]
 ItemDisplay[MAG rin ILVL=70]: %BLUE%%NAME%%ORANGE% [c72-78]
 ItemDisplay[MAG rin ILVL=71]: %BLUE%%NAME%%ORANGE% [c71-77 b99-]
-ItemDisplay[MAG rin ILVL=72]: %BLUE%%NAME%%ORANGE% [c70-76 b98-]
-ItemDisplay[MAG rin ILVL=73]: %BLUE%%NAME%%ORANGE% [c69-75 b97-]
-ItemDisplay[MAG rin ILVL=74]: %BLUE%%NAME%%ORANGE% [c68-74 b96-]
-ItemDisplay[MAG rin ILVL=75]: %BLUE%%NAME%%ORANGE% [c67-73 b95-]
-ItemDisplay[MAG rin ILVL=76]: %BLUE%%NAME%%ORANGE% [c66-72 b94-]
-ItemDisplay[MAG rin ILVL=77]: %BLUE%%NAME%%ORANGE% [c65-71 b93-]
-ItemDisplay[MAG rin ILVL=78]: %BLUE%%NAME%%ORANGE% [c64-70 b92-]
-ItemDisplay[MAG rin ILVL=79]: %BLUE%%NAME%%ORANGE% [c63-69 b91-]
-ItemDisplay[MAG rin ILVL=80]: %BLUE%%NAME%%ORANGE% [c62-68 b90-]
-ItemDisplay[MAG rin ILVL=81]: %BLUE%%NAME%%ORANGE% [c61-67 b89-]
-ItemDisplay[MAG rin ILVL=82]: %BLUE%%NAME%%ORANGE% [c60-66 b88-]
-ItemDisplay[MAG rin ILVL=83]: %BLUE%%NAME%%ORANGE% [c59-65 b87-]
-ItemDisplay[MAG rin ILVL=84]: %BLUE%%NAME%%ORANGE% [c58-64 b86-]
-ItemDisplay[MAG rin ILVL=85]: %BLUE%%NAME%%ORANGE% [c57-63 b85-]
+ItemDisplay[MAG rin ILVL=72]: %BLUE%%NAME%%ORANGE% [c71-76 b98-]
+ItemDisplay[MAG rin ILVL=73]: %BLUE%%NAME%%ORANGE% [c71-75 b97-]
+ItemDisplay[MAG rin ILVL=74]: %BLUE%%NAME%%ORANGE% [c71-74 b96-]
+ItemDisplay[MAG rin ILVL=75]: %BLUE%%NAME%%ORANGE% [c71-73 b95-]
+ItemDisplay[MAG rin ILVL=76]: %BLUE%%NAME%%ORANGE% [c71-72 b94-]
+ItemDisplay[MAG rin ILVL=77]: %BLUE%%NAME%%ORANGE% [c71 b93-]
+ItemDisplay[MAG rin ILVL=78]: %BLUE%%NAME%%ORANGE% [b92-]
+ItemDisplay[MAG rin ILVL=79]: %BLUE%%NAME%%ORANGE% [b91-]
+ItemDisplay[MAG rin ILVL=80]: %BLUE%%NAME%%ORANGE% [b90-]
+ItemDisplay[MAG rin ILVL=81]: %BLUE%%NAME%%ORANGE% [b89-]
+ItemDisplay[MAG rin ILVL=82]: %BLUE%%NAME%%ORANGE% [b88-]
+ItemDisplay[MAG rin ILVL=83]: %BLUE%%NAME%%ORANGE% [b87-]
+ItemDisplay[MAG rin ILVL=84]: %BLUE%%NAME%%ORANGE% [b86-]
+ItemDisplay[MAG rin ILVL=85]: %BLUE%%NAME%%ORANGE% [b85-]
 ItemDisplay[MAG rin]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 
 //Blue Jewels for crafting
@@ -1262,19 +1259,18 @@ ItemDisplay[CL2 NMAG (SK138>0) !SOCK=1 CLVL<21]: %GRAY%shout helm%GRAY%[%SOCKETS
 
 //scepters
 ItemDisplay[WP13 NMAG SOCK=4]: %GRAY%%NAME% %GRAY%[%SOCKETS%]
-ItemDisplay[WP13 NMAG SOCK=5 (SK117>0)]: %WHITE%Holy Shield cta base%WHITE%[%SOCKETS%]
+ItemDisplay[WP13 NMAG SOCK=5 (SK117>0)]: %DGREEN%Holy Shield cta base%WHITE%[%SOCKETS%]
 ItemDisplay[WP13 NMAG (SK121=3 AND SK123=3 AND SK117>0) !SOCK=1 !SOCK=2]: %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[WP13 NMAG (SK121=3 AND SK123=3 AND SK124=3) !SOCK=1 !SOCK=2]: %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[WP13 NMAG (SK121=3 AND SK123=3 AND SK115=3) !SOCK=1 !SOCK=2]: %NAME% %YELLOW%[%SOCKETS%]
 
 //CTA staff
+ItemDisplay[WP11 NMAG SOCK=5 (SK58=3)]:%DGREEN% +3 ES CTA base %YELLOW%[%SOCKETS%]
 ItemDisplay[WP11 NMAG SOCK=5 (SK58>1 AND SK57>0)]: %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[WP11 NMAG SOCK=5 (SK58>1 AND SK50>0)]: %NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[WP11 NMAG SOCK=5 (SK58=3)]:%DGREEN% +3 Energy Shield CTA base %YELLOW%[%SOCKETS%]
 ItemDisplay[WP11 NMAG SOCK=0 SK58>1 SK57>0]: %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[WP11 NMAG SOCK=0 SK58>1 SK50>0]: %NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[WP11 NMAG SOCK=0 SK58=3]: %NAME% %YELLOW%[%SOCKETS%]
-ItemDisplay[WP11 NMAG]: %NAME%
+ItemDisplay[WP11 NMAG SOCK=0 SK58=3]: +3 ES %NAME% %YELLOW%[%SOCKETS%]
 
 //Merc Rares
 ItemDisplay[RARE WP3 !ID CLVL<85]: %NAME%
@@ -1302,16 +1298,16 @@ ItemDisplay[RARE EQ6 !ID]: %YELLOW%%NAME% %RED%¤
 ItemDisplay[RARE jew !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤
 
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs
-ItemDisplay[RARE CL1 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE CL2 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE CL3 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE CL4 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE CL5 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE CL6 !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE CL1 !ID]: %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE CL2 !ID]: %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE CL3 !ID]: %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE CL4 !ID]: %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE CL5 !ID]: %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE CL6 !ID]: %YELLOW%%NAME% %RED%¤
 
 //Caster Rares (Staff, Wand, Scepter)
 ItemDisplay[RARE WP11 !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE WP12 !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE WP12 !ID]: %YELLOW%%NAME% %RED%¤
 ItemDisplay[RARE WP13 !ID]: %YELLOW%%NAME%
 
 //None of the Above
@@ -1447,11 +1443,16 @@ ItemDisplay[MAG xtg !ID ILVL>60]:
 
 //Normal
 //Vendor Items
-ItemDisplay[NMAG WP11]: 
+ItemDisplay[NMAG WP11 PRICE>29999]: %NAME% %YELLOW%$30k+
+ItemDisplay[NMAG WP12 PRICE>29999]: %NAME% %YELLOW%$30k+
+ItemDisplay[NMAG WP13 PRICE>29999]: %NAME% %YELLOW%$30k+
+ItemDisplay[NMAG CL4 PRICE>29999]: %NAME% %YELLOW%$30k+
+ItemDisplay[NMAG CL6 PRICE>29999]: %NAME% %YELLOW%$30k+
+ItemDisplay[NMAG WP11]:
 ItemDisplay[NMAG WP12]:
-ItemDisplay[NMAG WP13]: 
-ItemDisplay[NMAG CL4]: 
-ItemDisplay[NMAG CL6]: 
+ItemDisplay[NMAG WP13]:
+ItemDisplay[NMAG CL4]:
+ItemDisplay[NMAG CL6]:
 //None of the Above
 //Weapons: Axe, Mace, Sword, Dagger, Throwing Weapon, Javelin, Spear, Polearm, Bow, Crossbow
 
