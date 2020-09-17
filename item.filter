@@ -1443,16 +1443,11 @@ ItemDisplay[MAG xtg !ID ILVL>60]:
 
 //Normal
 //Vendor Items
-ItemDisplay[NMAG WP11 PRICE>29999]: %NAME% %YELLOW%$30k+
-ItemDisplay[NMAG WP12 PRICE>29999]: %NAME% %YELLOW%$30k+
-ItemDisplay[NMAG WP13 PRICE>29999]: %NAME% %YELLOW%$30k+
-ItemDisplay[NMAG CL4 PRICE>29999]: %NAME% %YELLOW%$30k+
-ItemDisplay[NMAG CL6 PRICE>29999]: %NAME% %YELLOW%$30k+
-ItemDisplay[NMAG WP11]:
-ItemDisplay[NMAG WP12]:
-ItemDisplay[NMAG WP13]:
-ItemDisplay[NMAG CL4]:
-ItemDisplay[NMAG CL6]:
+ItemDisplay[NMAG WP11]: %NAME% (%YELLOW%$%PRICE%%WHITE%)
+ItemDisplay[NMAG WP12]: %NAME% (%YELLOW%$%PRICE%%WHITE%)
+ItemDisplay[NMAG WP13]: %NAME% (%YELLOW%$%PRICE%%WHITE%)
+ItemDisplay[NMAG CL4]: %NAME% (%YELLOW%$%PRICE%%WHITE%)
+ItemDisplay[NMAG CL6]: %NAME% (%YELLOW%$%PRICE%%WHITE%)
 //None of the Above
 //Weapons: Axe, Mace, Sword, Dagger, Throwing Weapon, Javelin, Spear, Polearm, Bow, Crossbow
 
