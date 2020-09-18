@@ -5,6 +5,6 @@
 
 reminder usefull links:
 
-ias breakpoint : https://mmmpld.github.io/pod-attack-calc/
-map immunities : https://mmmpld.github.io/pod-map-calc/
+- ias breakpoint : https://mmmpld.github.io/pod-attack-calc/
+- map immunities : https://mmmpld.github.io/pod-map-calc/
 
