@@ -1,6 +1,6 @@
 UNSOCKET	Hel + TP			// Except Ethereal Body Armors
 
-	SOCKET						// rand roll 1-maxsock according to ilvl)
+	SOCKET						// rand roll 1-maxsock according to ilvl) /!\ doesn't work on superior quality /!\ 
 armor			Tal + Thul + pTopaz
 weap			Ral + Amn + pAmeth
 helm			Ral + Thul + pSaphir
@@ -25,7 +25,7 @@ armor cauch		Hel + Io + pTopaz
 
 	REROLL
 magic			3 pGems			// gc ilvl91+, sc ilvl47
-rare			6 pSkull		// diadem!
+rare			6 pSkull		// diadem or map
 
 	REPAIR
 weap			Ort
