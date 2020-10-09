@@ -229,7 +229,7 @@ ItemDisplay[sku CLVL>29]:
 ItemDisplay[gzv]: %ORANGE%Amethyst %RED%¤
 ItemDisplay[glw]: %ORANGE%Diamond
 ItemDisplay[glg]: %ORANGE%Emerald
-ItemDisplay[glr]: %ORANGE%Ruby
+ItemDisplay[glr]: %ORANGE%Ruby %RED%¤
 ItemDisplay[glb]: %ORANGE%Sapphire
 ItemDisplay[gly]: %ORANGE%Topaz
 ItemDisplay[skl]: %ORANGE%Skull %RED%¤
@@ -298,6 +298,10 @@ ItemDisplay[UNI !ETH !ID uvg]: %RED%¤ %PURPLE%%NAME% %RED%¤
 ItemDisplay[UNI !ETH !ID uhg]: %NAME% %RED%¤
 //Soul Drainer
 ItemDisplay[UNI !ETH !ID umg]: %NAME% %RED%¤
+//Trangoul
+ItemDisplay[SET !ID xmg]: %NAME% %RED%¤
+
+
 
 //Belts
 //Arachnid Mesh
@@ -425,7 +429,7 @@ ItemDisplay[MAG CL5 (TABSK49>1 AND SK278>1)]: %RED%¤¤¤¤¤ %PURPLE%VENOM CLAW
 
 //Shopping
 ItemDisplay[MAG ID !amu TABSK34=3]: %RED%¤¤¤¤¤ %PURPLE%BO STICK%RED% ¤¤¤¤¤
-ItemDisplay[MAG CL5 ID TABSK48=3]: %RED%¤¤¤¤¤ %PURPLE%TRAP CLAW%RED% ¤¤¤¤¤
+ItemDisplay[MAG CL5 ID TABSK48=3]: %RED%¤¤¤¤¤ %RED%TRAP CLAW%RED% ¤¤¤¤¤
 ItemDisplay[MAG EQ4 !ETH ID TABSK0=3 IAS=20]: %RED%¤¤¤¤¤ %PURPLE%BOW GLOVE%RED% ¤¤¤¤¤
 ItemDisplay[MAG EQ4 !ETH ID TABSK2=3 IAS=20]: %RED%¤¤¤¤¤ %PURPLE%JAVA GLOVE%RED% ¤¤¤¤¤
 ItemDisplay[MAG WP13 (TABSK24=3 AND SK121=3)]: %RED%¤¤¤¤¤ %PURPLE%FOH WEP%RED% ¤¤¤¤¤
@@ -840,14 +844,14 @@ ItemDisplay[NMAG CL5 (SK271=3) SOCK=3]: %WHITE%Lite Sentry Claw[%SOCKETS%]
 ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK262=3) SOCK=0]: %DGREEN%+3 Wake Fire %NAME%GRAY%[%SOCKETS%]
 ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK261=3) SOCK=0]: %DGREEN%+3 Bolt Sentry %NAME%%GRAY%[%SOCKETS%]
 ItemDisplay[NMAG CL5 !9cs !7xf !7cs (SK271=3) SOCK=0]: %WHITE%Lite Sentry Claw[%SOCKETS%]
-ItemDisplay[CL5 (SK262=3) CLVL<90]: %WHITE%+3 Wake Fire Claw[%SOCKETS%]
-ItemDisplay[CL5 (SK261=3) CLVL<90]: %WHITE%+3 Bolt Sentry Claw[%SOCKETS%]
-ItemDisplay[CL5 (SK271=3) CLVL<90]: %WHITE%+3 Lite Sentry Claw[%SOCKETS%]
-ItemDisplay[CL5 (SK272=3) CLVL<90]: %WHITE%+3 Inferno Claw[%SOCKETS%]
-ItemDisplay[CL5 (SK262<0) CLVL<75]: %GRAY%Wake Fire Claw[%SOCKETS%]
-ItemDisplay[CL5 (SK271<0) CLVL<75]: %GRAY%Lite Sentry Claw[%SOCKETS%]
-ItemDisplay[CL5 (SK261<0) CLVL<75]: %GRAY%Bolt Sentry Claw[%SOCKETS%]
-ItemDisplay[CL5 (SK272<0) CLVL<75]: %GRAY%Inferno Claw[%SOCKETS%]
+ItemDisplay[CL5 (SK262=3) CLVL<90]: %BLUE%+3 Wake Fire Claw
+ItemDisplay[CL5 (SK261=3) CLVL<90]: %BLUE%+3 Bolt Sentry Claw
+ItemDisplay[CL5 (SK271=3) CLVL<90]: %BLUE%+3 Lite Sentry Claw
+ItemDisplay[CL5 (SK272=3) CLVL<90]: %BLUE%+3 Inferno Claw
+ItemDisplay[CL5 (SK262<0) CLVL<75]: %GRAY%Wake Fire Claw
+ItemDisplay[CL5 (SK271<0) CLVL<75]: %GRAY%Lite Sentry Claw
+ItemDisplay[CL5 (SK261<0) CLVL<75]: %GRAY%Bolt Sentry Claw
+ItemDisplay[CL5 (SK272<0) CLVL<75]: %GRAY%Inferno Claw
 ItemDisplay[7ar NMAG !ETH (SK274<0 AND SK275<0) SOCK=3]: %GREEN%Slow Chaos Base %YELLOW%[%SOCKETS%]
 ItemDisplay[7ar NMAG !ETH (SK274<0 AND SK275<0) SOCK=0]: %GREEN%Slow Chaos Base %YELLOW%[%SOCKETS%]
 ItemDisplay[7tw NMAG !ETH (SK274<0 AND SK275<0) SOCK=3]: %GREEN%Fast Chaos Base %YELLOW%[%SOCKETS%]
@@ -933,6 +937,8 @@ ItemDisplay[NMAG ETH SOCK=5 7s8]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG ETH SOCK=5 7pa]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG ETH !SUP SOCK=5 7h7]: %PURPLE%¤ ¤ %GREEN%ETH DOOM BASE%RED%[%SOCKETS%] %PURPLE%¤ ¤
 ItemDisplay[NMAG ETH SOCK=5 7wc]: %DGREEN%ETH %NAME% %YELLOW%[%SOCKETS%]
+ItemDisplay[NMAG ETH SOCK=5 7br]: %RED%¤¤¤¤¤ %PURPLE%ETH %NAME%%RED% ¤¤¤¤¤[%SOCKETS%]
+
 //
 ItemDisplay[NMAG !ETH SOCK=5 7s8]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[NMAG !ETH SOCK=5 7pa]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]
@@ -1289,7 +1295,10 @@ ItemDisplay[RARE lbl !ID CLVL>40]:
 
 //RARES
 //Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
-ItemDisplay[RARE ci0 ci1 ci2 ci3 !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE ci0 !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE ci1 !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE ci2 !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE ci3 !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤
 ItemDisplay[RARE amu !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤ 
 ItemDisplay[RARE rin !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤
 ItemDisplay[RARE EQ4 !ID]: %YELLOW%%NAME% %RED%¤
@@ -1300,7 +1309,7 @@ ItemDisplay[RARE jew !ID]: %RED%¤ %YELLOW%%NAME% %RED%¤
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs
 ItemDisplay[RARE CL1 !ID]: %YELLOW%%NAME% %RED%¤
 ItemDisplay[RARE CL2 !ID]: %YELLOW%%NAME% %RED%¤
-ItemDisplay[RARE CL3 !ID]: %YELLOW%%NAME% %RED%¤
+ItemDisplay[RARE CL3 !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE CL4 !ID]: %YELLOW%%NAME% %RED%¤
 ItemDisplay[RARE CL5 !ID]: %YELLOW%%NAME% %RED%¤
 ItemDisplay[RARE CL6 !ID]: %YELLOW%%NAME% %RED%¤
